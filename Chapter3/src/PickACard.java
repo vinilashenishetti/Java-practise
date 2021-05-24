@@ -1,7 +1,7 @@
 import java.util.*;
 public class PickACard {
  public static void main(String[] args) {
-	 Scanner input = new Scanner(System.in);
+	 //Scanner input = new Scanner(System.in);
 	 
 	 Random random = new Random();
 	 int cardRank = random.nextInt(13);
@@ -11,5 +11,6 @@ public class PickACard {
 	 String suit[] = {"Clubs", "Diamonds", "Hearts", "Spades"};
 	 
 	 System.out.print("The card you picked is " +rank[cardRank] + " of " + suit[cardSuit]);
+	 
  }
 }
